@@ -17,6 +17,7 @@ setup(
     author_email='ivan.dmitrievsky+python@gmail.com',
     url='https://github.com/idmit/qzbot',
     install_requires=[
+        "peewee",
         "python-telegram-bot",
     ],
     license=license_,
